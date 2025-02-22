@@ -1,3 +1,4 @@
+<script>
 document.write(`
 <style>
 *{box-sizing:border-box}
@@ -24,21 +25,12 @@ th{font-weight:700}
 .icon-mid{background:url(data:image/gif;base64,R0lGODlhFAAWAMIAAP////8zM8z//8zMzJmZmWYAADMzMwAAACH+TlRoaXMgYXJ0IGlzIGluIHRoZSBwdWJsaWMgZG9tYWluLiBLZXZpbiBIdWdoZXMsIGtldmluaEBlaXQuY29tLCBTZXB0ZW1iZXIgMTk5NQAh+QQBAAACACwAAAAAFAAWAAADayi63P4wNsNCkOocYVWPB7FxFwmFwGh+DZpynndpNAHcW9cVQUj8tttrd+G5hMINT7A0BpE4ZnF6hCqn0iryKs0SDN9v0tSc0Q4DQ1SHFRjeBrQ6FzNN5Co2JD4YfUp7GnYsexQLhBiJigsJADs=) left top no-repeat}
 .icon-xml{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAATCAMAAABBexbDAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACJVBMVEVJSUkzMzMAAAAxMTEtLS0kJCRMTEw3Nzd5eXknJyd3eHchISF+fX4oKCgbGxsAAAAAAAAAAAA7Ozt7enoyMjIaGho6OjpWVlZXV1c/Pz9ZWVn39/f6+vr5+fn4+Pj39vb19fX09PV3d3e8vLz9/fz8/Pv6+vv5+fp4eHjGxsbn5+f5+Pn7+/v49/j29fbHyMf7+/rh4eH6+fr4+fn39/j29vb09PRgYGBTU1NnZ2dGRkZZWFj29fX4+Pn09PPy8vJcXFsKCgoFBgYJCQkICAhYWFj19PXz8/Pg4N/R0dGZmZmIiIiNjY09PT319PTi4uLOzs7d3d7Ozs/r6+vu7u7g4OGvr6+pqalDQ0Px8fHf396AgIB9fX24uLhhYWG1tbXp6urq6erq6+vNzc1CQkLw8PDf39+BgIBubm7Pz8/k5OSXl5dhYWK0tLXo5+fp6enMzMzv8O+BgYFvb2/t7e3t7eyUlJReXl7m5ubLy8vg4OCHh4dpaWnHyMjq6ene3d6MjI1bW1u9vb3Kysrq6urGxcVoaGiLi4vp6ei0tLRcXFyVlJTb2tvJycnExMRiYmKJiYnc29vl5eWzs7OTkpLb29vk4+PJyMjo6enAwMBgYGGPjo+/v7+Pj4/a2tnHx8fo6Oi+v7+amprY2Njf4N/Gx8bo5+jn5ufn6Oji4eHe3t6srKyrq6uqqqqoqKirq6qGhoYgICAZGRkaGhoSEhICAgIzM5lvrjGXAAAAFnRSTlMAAAAAAAD0POM43jraONkyT035+yhsUHJeMwAAAAFiS0dEtqoHC/EAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfkBQkKDTPzAKlDAAABOElEQVQY02MQE5eQEAcBSTZ2BkYmJiYGKWkZWTl5BUVpJWUOTmZGkIiMiqqaupy0jIamFhc3CyNQRFtHRlZXWk9bQ9/AkIeXFaTLyNjEVMFMztxCwtKKj5+JwdrGVtpUwc7e1MHRydHZRYCJwdVMWs/Nzc3e3cPTy9vHVxAo4q7gZ+YfEBgUHBIaFh4BEok0M4uKjomNi09ITEpOAYpIpJqlpWdkZmXn5OblF4BFCtOKipNLSv3LyuMrKkEirlXVNbUlwXWJ9Q2NTc1gNS2tbe2BLR0VnV3dPb0gEfGWkr7+CRMnTe6aMnXadLDIjOC6mbNmzymfO8/QcD5YRCt/gdbCRU2LFhtGLVkKFsnLX7Z8xYxJFSvTVkWB1QgJr16zZu3ateHh4evWb9gIFBER3QQHm7dsFWQCADqOYoQTrx32AAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIwLTA1LTA5VDEwOjEzOjUxKzAwOjAwtkxl8wAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMC0wNS0wOVQxMDoxMzo1MSswMDowMMcR3U8AAAAASUVORK5CYII=) left top no-repeat}
 .icon-md{background:url(data:image/gif;base64,R0lGODlhFAAWAMIAAP/////Mmcz//5lmMwAAAAAAAAAAAAAAACH+TlRoaXMgYXJ0IGlzIGluIHRoZSBwdWJsaWMgZG9tYWluLiBLZXZpbiBIdWdoZXMsIGtldmluaEBlaXQuY29tLCBTZXB0ZW1iZXIgMTk5NQAh+QQBAAACACwAAAAAFAAWAAADTCi63P4wykkdubiSwDuRVydi5CWEYjBsKbe2rDjMdMwRw1iaaZx7jcDm8nOpVsFjsSh0CFuq46fxko0eKOtsiu0UuRHfVlOqmM9oSgIAOw==) left top no-repeat}
-.icon-pdf{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAATCAMAAABBexbDAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABaFBMVEX////8/Pvs7OTp6eDo59/6+vj8/Prs7OPp6uHf3tPm5dzm2dHdqaTn4NjZ18ro6OD9/f3p6+LjycPWf3zl1M3g39Ta2Mvb2c3t7Ob+/v7m18/XhoPn3NPo597m5t3m5tzq6uHn3dXWgoDkzsbjycLamJTdqKPo5t3erajhu7XalZHZkY7cpKDl1s7l0svWgX/al5PesKrbmpbWgn/kzcXjyMHVfHro49vp597n3tbp6N/p59/ampbYjInl0cr8+/rr6OHo5d346+rYhYPUdXPTdHLTdHP35OTQXV3LRkfRXV7dhYXTY2TZd3jbgIHQWVrWbG3cg4TSYGHRX1/LR0jZeHjjnJ3il5jkn6Dbfn/gk5TeiInQWlvLSUrZeXnnq6vae3zhlpbim5vjnJzfj5DLSEnXcnLMTE3imZrhlZbdhobSYWLMSkv46OfSY2TMSUrNUFHOUVLMS0zSX2DNTk/OU1TMSUv46OgY/Hh1AAAAAWJLR0QAiAUdSAAAAAlwSFlzAAAAYAAAAGAA8GtCzwAAAAd0SU1FB+QFCQkNBqf10zkAAADnSURBVBjTY2BgZGKGAhZWBjBgYwdzOZiZObkYISIgNRzcPLzMnHz8AnARQSFhEQ5RMXEJSbgaKWkZDlk5eQVGuIiikrIgkGZig+tSUVVTF+RAFtHQ1NLW0eWAi3Do6RsYGhmbwEU4TM3UzAUtLK3guqxtbC05wI6E67IT4YB4BCxi7+CobmGhDgaODvZAESdnFxdXN1dXFzdXFxdnJ6CIu4enl7ePr59/QGCQp4c7SCQ4JDQsPCIyKjw6JjYYKhIXn5AYlJScAhdJTUtIz8j0y8rOyQGL5OblFxQWxRSXlJYUleWVMwAAk4Er1nVAafYAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjAtMDUtMDlUMDk6MTM6MDYrMDA6MDAhkb6HAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIwLTA1LTA5VDA5OjEzOjA2KzAwOjAwUMwGOwAAAABJRU5ErkJggg==) left top no-repeat}
+.icon-pdf{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAATCAMAAABBexbDAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABaFBMVEX////8/Pvs7OTp6eDo59/6+vj8/Prs7OPp6uHf3tPm5dzm2dHdqaTn4NjZ18ro6OD9/f3p6+LjycPWf3zl1M3g39Ta2Mvb2c3t7Ob+/v7m18/XhoPn3NPo597m5t3m5tzq6uHn3dXWgoDkzsbjycLamJTdqKPo5t3erajhu7XalZHZkY7cpKDl1s7l0svWgX/al5PesKrbmpbWgn/kzcXjyMHVfHro49vp597n3tbp6N/p59/ampbYjInl0cr8+/rr6OHo5d346+rYhYPUdXPTdHLTdHP35OTQXV3LRkfRXV7dhYXTY2TZd3jbgIHQWVrLSUrZeXnnq6vae3zhlpbim5vjnJzfj5DLSEnXcnLMTE3imZrhlZbdhobSYWLMSkv46OfSY2TMSUrNUFHOUVLMS0zSX2DNTk/OU1TMSUv46OgY/Hh1AAAAAWJLR0QAiAUdSAAAAAlwSFlzAAAAYAAAAGAA8GtCzwAAAAd0SU1FB+QFCQkNBqf10zkAAADnSURBVBjTY2BgZGKGAhZWBjBgYwdzOZiZObkYISIgNRzcPLzMnHz8AnARQSFhEQ5RMXEJSbgaKWkZDlk5eQVGuIiikrIgkGZig+tSUVVTF+RAFtHQ1NLW0eWAi3Do6RsYGhmbwEU4TM3UzAUtLK3guqxtbC05wI6E67IT4YB4BCxi7+CobmGhDgaODvZAESdnFxdXN1dXFzdXFxdnJ6CIu4enl7ePr59/QGCQp4c7SCQ4JDQsPCIyKjw6JjYYKhIXn5AYlJScAhdJTUtIz8j0y8rOyQGL5OblFxQWxRSXlJYUleWVMwAAk4Er1nVAafYAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjAtMDUtMDlUMDk6MTM6MDYrMDA6MDAhkb6HAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIwLTA1LTA5VDA5OjEzOjA2KzAwOjAwUMwGOwAAAABJRU5ErkJggg==) left top no-repeat}
 .icon-bat{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAMAAADjcdz2AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABy1BMVEUBAAAIBwYPDw4AAAAHBwcREA4UEg8REA8NDQ0ODg4AAwUZFRFKQjYHCAkAAgcxGg+fj3cSEA4BBgkwGhColHYVFBIOCwhMKRink3WqlXcWFBJ+b1kTExIXGBkSExMNDAwvOkEwO0IqNjwUGBt7bFYyLSVlWUdsX0tlWUYwNDMZHyMAAAAAAAAAAAAQFBYnMjclLzQSFhhvYk6BcVqAcFl/cVx/cl+AcV19cFxQNCPfxJz/4rT/4LL95cH66tL95sX+6MmCQiRqQSrexJz/4rP/4LP/4bT/4rVsOSBvVT/x1Kn/4bNhVUS4oYC5ooHjyJ+LemH/5Lb/47X/47T/5baIeF/z1qrIsIzAqYfCq4j73K+FeWQ2QUU1QEU1P0QyPULw06daWE8hPEEITEcKWFIKWFMJU00SLi4ZHyPw0qdbWFAaREYAYlgAZFoAl4kAmIoAjoAJOjYYHSAbREYAQjwAbmQAin0AlogAjX8YHSEbQ0UAdWoAh3oAhnrz1alcWVAAjH+JeGDny6Lny6HBqYZNTEYcQ0YAi37HrovJsY2QfmRAQDwcQ0UAiHsAk4UAinwIODQpQEYTR0UUS0kUSEYaMDIqNDoqMzr///9hvpbWAAAAMnRSTlMAAAAAAAAAAAAAI8zRIRiy+0wXqftQsf77+038f0JBG/r498b9i8nLy+39AxASdvn+u16Vj4MAAAABYktHRJh20QY+AAAACXBIWXMAAABgAAAAYADwa0LPAAAAB3RJTUUH5AUJCgI2BPJBAwAAAOlJREFUGNNjYGDk4jYyNjE1M7fg4WViZmZg4eO3tLK2sbWzdxAQZAUKCAk7Ojm72Li6ubqLiLIBBcTEPTy9vG2AwFoCLODj6+cP5sMEAgKDvL2Dg4AgRFKKnYOTIdTbxjssPAIIIqVlZOXkQQJR0TGxcUAQr6CopAwU8E5ITEpOAYHUtPQMkEBmVnZObl5+Xl5+QWERRKA4t6S0LK88r6KwEiJQVV1TWgsTsLauq69qAOoohwg0NjW3tLa1A7lQAZWOzq7unt4+MOifUMSgqqauoTlx0mQwmDJVi0FbR1dHT3/adDCYZmAIAH4CVo8G3xMtAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIwLTA1LTA5VDEwOjAyOjU0KzAwOjAwyjj+qgAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMC0wNS0wOVQxMDowMjo1NCswMDowMLtlRhYAAAAASUVORK5CYII=) left top no-repeat}
 .icon-html{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAATCAQAAAA3m5V5AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAAAGAAAABgAPBrQs8AAAAHdElNRQfkBQkKBRXp1Ka2AAABeElEQVQoz3WSzStEYRTGf+97L3MNY2SBGfKdYqesbCRr2VrJavwDylZJskGhSBnZWxobOxuJjXxFUYo0NaUZbsZ177G4F3fEczan0+k5zznnoWJV53mhEIoXVYxOp3Qr7fhQRk7POYcYfEGIsaiT0cnCWicG1wDk6KUUMY4R/Vw1Dt10ARpCLICFpZSAF7cXqkYuUUFTCRL0F8o31B4ZL/86DHfBuL5wUzMJwCpDM8+2z2H+ZrqnmTYeHGCfuBdUfzH9BQ1IaUkBMQQryP1xBqNcE6OOOC0ojiqtyKm6qhnUEbueE85MBIMxdmiimxtS5CRrjzt27WZ+xj0gicOZL9+ljUZspjlgi7R8eB35RSkTDxf52W4Ckx08BEH40LORR3uABkpOsEw9FYFOUO93zq70kgBMlA52fCCLBnTwBy2gQSmmyJgoXNa55YJqhDRPFFniHMio6nKj2PO3C0IX839vGughpxIDxWNgnpC1XD/5duYbK/8xfgIXV3unfHDg0QAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMC0wNS0wOVQxMDowNToyMSswMDowMHAZw20AAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjAtMDUtMDlUMTA6MDU6MjErMDA6MDABRHvRAAAAAElFTkSuQmCC) left top no-repeat}
 .icon-rar{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAASCAQAAAAul0yEAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAAAGAAAABgAPBrQs8AAAAHdElNRQfkBQkKBzZ5hbVGAAABZ0lEQVQoz12SPSjEcRjHP7+Xu59z56XzEhIuk8F2isFmMxhMUnal1NmUiUzYThl0ZVBmVjNZxEAhfyVFuPP2P/R/+RmOc3ye8dvz7en7fTBbosDj74iPqmxfpJ1uAIS6EDP+NZISITNiNDZdXOuhikPgiGYqWcbK+5phWAXgmNYfpQtQC1isOkmk4oCuXHSIEt14L4axYMTtxPkn5/AQZ+EiipS1/DcvI+mhnh9zDfhEaMTlFUlt+HIaIEigAZtSTisa39y61SSx+t6YYh2IFw2EV71BDunL26zfb9OBeNoOkwxar/igAevVU2DOjnwO2QYytHljWLJc+tnS5QEpZmmTB0GSODEsigkKUpbCFCKvOyKfZoMm5slg8LSr0rGVkqysk5iUHh3cMU4GD8SS2QzTGhDcsKv3ElNvHzTj8MoOeOct+8/d5UokccyfbJIYtIqLAf8aGebdy7/R5QG+3+GZ9XLnFXwBD+yC4BnhT5YAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjAtMDUtMDlUMTA6MDc6NTQrMDA6MDAsETXuAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIwLTA1LTA5VDEwOjA3OjU0KzAwOjAwXUyNUgAAAABJRU5ErkJggg==) left top no-repeat}
 </style>`);
 
-
-// .icon-image{background:url() left top no-repeat}
-// .icon-video{background:url() left top no-repeat}
-// 
-// 
-// .icon-pdf{background:url() left top no-repeat}
-// .icon-msword{background:url() left top no-repeat}
-
-// .icon-XYZ{background:url() left top no-repeat}
 
 // 初始化页面，并载入必要资源
 function init(){
@@ -48,65 +40,68 @@ function init(){
     <h1 id="heading">Index of <?php echo urldecode($path);?></h1>
     <table id="table">
     </table>
-	`;
+    `;
     $('body').html(html);
 }
 
 function render(path){
-	if(path.indexOf("?") > 0){
-		path = path.substr(0,path.indexOf("?"));
-	}
+    // Если в path есть query-параметры, отсекаем их
+    if(path.indexOf("?") > 0){
+        path = path.substr(0,path.indexOf("?"));
+    }
     title(path);
     nav(path);
     if(path.substr(-1) == '/'){
-    	list(path);
+        list(path);
     }else{
-	    file(path);
+        file(path);
     }
 }
 
 
-// 渲染 title
+// Рендер title
 function title(path){
     path = decodeURI(path);
     $('title').html(document.siteName+' - '+path);
 }
 
-// 渲染导航栏
+// Рендер «шапки»
 function nav(path){
-	path = decodeURI(path);
+    path = decodeURI(path);
     $('#heading').html('Index of '+path);
 }
 
-// 渲染文件列表
+// Рендер списка файлов
 function list(path){
-	var content = `
+    var content = `
 <tr><th class="file-name">Name</th><th class="file-size">Size</th><th class="file-date-modified">Date Modified</th><th class="file-type">Type</th></tr>
-	`;
+    `;
 
-	if(path != '/'){
-		var up = path.split('/');
-		up.pop();up.pop();
-		up = up.join('/')+'/';
-		content += `
+    // Ссылка ".." для «подняться» на уровень выше
+    if(path != '/'){
+        var upArr = path.split('/');
+        upArr.pop();  // убираем последний '' (если path оканчивается слэшем)
+        upArr.pop();  // поднимаемся ещё на уровень
+        var upPath = upArr.join('/')+'/';
+
+        content += `
 <tr>
-	<td class="file-name">
-		<a class="icon icon-up folder" href="${up}">..</a>
-	</td>
-	<td class="file-size"></td>
-	<td class="file-date-modified"></td>
+    <td class="file-name">
+        <a class="icon icon-up folder" href="${encodeURI(upPath)}">..</a>
+    </td>
+    <td class="file-size"></td>
+    <td class="file-date-modified"></td>
+    <td class="file-type"></td>
 </tr>
-		`;	
-	}
-	$('#table').html(content);
-	
+        `;
+    }
+    $('#table').html(content);
+    
     var password = localStorage.getItem('password'+path);
-	
-	// $('#list').html(`<div class="mdui-progress"><div class="mdui-progress-indeterminate"></div></div>`);
-	// $('#list').html(html);
+    // отправляем POST-запрос, чтобы получить список файлов
     $.post(path,'{"password":"'+password+'"}', function(data,status){
         var obj = jQuery.parseJSON(data);
-        if(typeof obj != 'null' && obj.hasOwnProperty('error') && obj.error.code == '401'){
+        if(obj && obj.error && obj.error.code == '401'){
             var pass = prompt("password","");
             localStorage.setItem('password'+path, pass);
             if(pass != null && pass != ""){
@@ -114,259 +109,262 @@ function list(path){
             }else{
                 history.go(-1);
             }
-        }else if(typeof obj != 'null'){
+        }else if(obj){
             list_files(path,obj.files);
         }
     });
 }
 
-function list_files(path,files){
-    html = "";
-    for(i in files){
-        var item = files[i];
-        if(item['size']==undefined){
+// Добавляем строки с файлами
+function list_files(path, files){
+    var html = "";
+    for(let i in files){
+        let item = files[i];
+        if(item['size']===undefined){
             item['size'] = "";
         }
         item['modifiedTime'] = utc2beijing(item['modifiedTime']);
         item['size'] = formatFileSize(item['size']);
+
+        // ссылка (p) — кодируем имя файла
+        let p = ""; 
+        // если это папка
         if(item['mimeType'] == 'application/vnd.google-apps.folder'){
-        	var p = path+item.name+'/';
-            html +=`
-				<tr>
-					<td class="file-name"><a class="icon icon-dir folder" href="${p}">${item.name}/</a></td>
-					<td class="file-size">${item['size']}</td>
-					<td class="file-date-modified">${item['modifiedTime']}</td>
-				</tr>
-            `;
-        } else if(item['mimeType'] == 'audio/mid'){
-	        var p = path+item.name;
+            p = path + encodeURIComponent(item.name) + '/';
             html += `
-				<tr>
-					<td class="file-name"><a class="icon icon-mid" href="${p}">${item.name}</a></td>
-					<td class="file-size">${item['size']}</td>
-					<td class="file-date-modified">${item['modifiedTime']}</td>
-					<td class="file-date-modified">${item['mimeType']}</td>
-				</tr>
+<tr>
+    <td class="file-name">
+        <a class="icon icon-dir folder" href="${p}">${item.name}/</a>
+    </td>
+    <td class="file-size">${item['size']}</td>
+    <td class="file-date-modified">${item['modifiedTime']}</td>
+    <td class="file-type">folder</td>
+</tr>
             `;
-        } else if(item['mimeType'] == 'audio/mpeg'){
-	        var p = path+item.name;
-            html += `
-				<tr>
-					<td class="file-name"><a class="icon icon-audio" href="${p}">${item.name}</a></td>
-					<td class="file-size">${item['size']}</td>
-					<td class="file-date-modified">${item['modifiedTime']}</td>
-					<td class="file-date-modified">${item['mimeType']}</td>
-				</tr>
-            `;
-        } else if(item['mimeType'] == 'image/jpeg'){
-	        var p = path+item.name;
-            html += `
-				<tr>
-					<td class="file-name"><a class="icon icon-image" href="${p}">${item.name}</a></td>
-					<td class="file-size">${item['size']}</td>
-					<td class="file-date-modified">${item['modifiedTime']}</td>
-                    <td class="file-date-modified">${item['mimeType']}</td>
-				</tr>
-            `;
-        } else if(item['mimeType'] == 'video/mpeg'){
-	        var p = path+item.name;
-            html += `
-				<tr>
-					<td class="file-name"><a class="icon icon-video" href="${p}">${item.name}</a></td>
-					<td class="file-size">${item['size']}</td>
-					<td class="file-date-modified">${item['modifiedTime']}</td>
-					<td class="file-date-modified">${item['mimeType']}</td>
-				</tr>
-            `;
-        } else if(item['mimeType'] == 'application/x-7z-compressed'){
-	        var p = path+item.name;
-            html += `
-				<tr>
-					<td class="file-name"><a class="icon icon-7z" href="${p}">${item.name}</a></td>
-					<td class="file-size">${item['size']}</td>
-					<td class="file-date-modified">${item['modifiedTime']}</td>
-					<td class="file-date-modified">${item['mimeType']}</td>
-				</tr>
-            `;
-        } else if(item['mimeType'] == 'application/x-zip-compressed'){
-	        var p = path+item.name;
-            html += `
-				<tr>
-					<td class="file-name"><a class="icon icon-zip" href="${p}">${item.name}</a></td>
-					<td class="file-size">${item['size']}</td>
-					<td class="file-date-modified">${item['modifiedTime']}</td>
-					<td class="file-date-modified">${item['mimeType']}</td>
-				</tr>
-            `;
-        } else if(item['mimeType'] == 'text/plain'){
-	        var p = path+item.name;
-            html += `
-				<tr>
-					<td class="file-name"><a class="icon icon-text" href="${p}">${item.name}</a></td>
-					<td class="file-size">${item['size']}</td>
-					<td class="file-date-modified">${item['modifiedTime']}</td>
-					<td class="file-date-modified">${item['mimeType']}</td>
-				</tr>
-            `;
-        } else if(item['mimeType'] == 'text/xml'){
-	        var p = path+item.name;
-            html += `
-				<tr>
-					<td class="file-name"><a class="icon icon-xml" href="${p}">${item.name}</a></td>
-					<td class="file-size">${item['size']}</td>
-					<td class="file-date-modified">${item['modifiedTime']}</td>
-					<td class="file-date-modified">${item['mimeType']}</td>
-				</tr>
-            `;
-        } else if(item['mimeType'] == 'application/x-rar'){
-	        var p = path+item.name;
-            html += `
-				<tr>
-					<td class="file-name"><a class="icon icon-rar" href="${p}">${item.name}</a></td>
-					<td class="file-size">${item['size']}</td>
-					<td class="file-date-modified">${item['modifiedTime']}</td>
-					<td class="file-date-modified">${item['mimeType']}</td>
-				</tr>
-            `;
-        } else if(item['mimeType'] == 'text/html'){
-	        var p = path+item.name;
-            html += `
-				<tr>
-					<td class="file-name"><a class="icon icon-html" href="${p}">${item.name}</a></td>
-					<td class="file-size">${item['size']}</td>
-					<td class="file-date-modified">${item['modifiedTime']}</td>
-					<td class="file-date-modified">${item['mimeType']}</td>
-				</tr>
-            `;
-        } else if(item['mimeType'] == 'application/pdf'){
-	        var p = path+item.name;
-            html += `
-				<tr>
-					<td class="file-name"><a class="icon icon-pdf" href="${p}">${item.name}</a></td>
-					<td class="file-size">${item['size']}</td>
-					<td class="file-date-modified">${item['modifiedTime']}</td>
-                    <td class="file-date-modified">${item['mimeType']}</td>
-                    <td class="file-date-modified">${item['iconLink']}</td>
-				</tr>
-            `;
-        } else if(item['mimeType'] == 'text/markdown'){
-	        var p = path+item.name;
-            html += `
-				<tr>
-					<td class="file-name"><a class="icon icon-md" href="${p}">${item.name}</a></td>
-					<td class="file-size">${item['size']}</td>
-					<td class="file-date-modified">${item['modifiedTime']}</td>
-					<td class="file-date-modified">${item['mimeType']}</td>
-				</tr>
-            `;
-        } else if(item['mimeType'] == 'application/x-msdos-program'){
-	        var p = path+item.name;
-            html += `
-				<tr>
-					<td class="file-name"><a class="icon icon-bat" href="${p}">${item.name}</a></td>
-					<td class="file-size">${item['size']}</td>
-					<td class="file-date-modified">${item['modifiedTime']}</td>
-					<td class="file-date-modified">${item['mimeType']}</td>
-				</tr>
-            `;
-        } else if(item['mimeType'] == 'application/x-msdownload'){
-	        var p = path+item.name;
-            html += `
-				<tr>
-					<td class="file-name"><a class="icon icon-x-msdownload" href="${p}">${item.name}</a></td>
-					<td class="file-size">${item['size']}</td>
-					<td class="file-date-modified">${item['modifiedTime']}</td>
-					<td class="file-date-modified">${item['mimeType']}</td>
-				</tr>
-            `;
-        } else if(item['mimeType'] == 'application/x-bittorrent'){
-	        var p = path+item.name;
-            html += `
-				<tr>
-					<td class="file-name"><a class="icon icon-application/x-bittorrent" href="${p}">${item.name}</a></td>
-					<td class="file-size">${item['size']}</td>
-					<td class="file-date-modified">${item['modifiedTime']}</td>
-					<td class="file-date-modified">${item['mimeType']}</td>
-				</tr>
-            `;
-        } else if(item['mimeType'] == 'application/vnd.google-apps.spreadsheet'){
-	        var p = path+item.name;
-            html += `
-				<tr>
-					<td class="file-name"><a class="icon icon-google.spreadsheet" href="${p}">${item.name}</a></td>
-					<td class="file-size">${item['size']}</td>
-					<td class="file-date-modified">${item['modifiedTime']}</td>
-                    <td class="file-date-modified">application/google.spreadsheet</td>
-                    <td class="file-date-modified">${item['iconLink']}</td>
-                    
-				</tr>
-            `;
-        } else if(item['mimeType'] == 'application/vnd.google-apps.presentation'){
-	        var p = path+item.name;
-            html += `
-				<tr>
-					<td class="file-name"><a class="icon icon-google.presentation" href="${p}">${item.name}</a></td>
-					<td class="file-size">${item['size']}</td>
-					<td class="file-date-modified">${item['modifiedTime']}</td>
-					<td class="file-date-modified">application/google.presentation</td>
-				</tr>
-            `;
-        } else{
-	        var p = path+item.name;
-            html += `
-				<tr>
-					<td class="file-name"><a class="icon icon-file" href="${p}">${item.name}</a></td>
-					<td class="file-size">${item['size']}</td>
-                    <td class="file-date-modified">${item['modifiedTime']}</td>
-                    <td class="file-date-modified">${item['mimeType']}</td>
-				</tr>
-            `;
+        }
+        // иначе это файл (ниже много вариантов по mimeType)
+        else {
+            p = path + encodeURIComponent(item.name);
+            // Для удобства создадим переменную с типом (item['mimeType'])
+            let mime = item['mimeType'];
+
+            // Пример: audio/mid
+            if(mime === 'audio/mid'){
+                html += `
+<tr>
+    <td class="file-name"><a class="icon icon-mid" href="${p}">${item.name}</a></td>
+    <td class="file-size">${item['size']}</td>
+    <td class="file-date-modified">${item['modifiedTime']}</td>
+    <td class="file-type">${mime}</td>
+</tr>
+                `;
+            } else if(mime === 'audio/mpeg'){
+                html += `
+<tr>
+    <td class="file-name"><a class="icon icon-audio" href="${p}">${item.name}</a></td>
+    <td class="file-size">${item['size']}</td>
+    <td class="file-date-modified">${item['modifiedTime']}</td>
+    <td class="file-type">${mime}</td>
+</tr>
+                `;
+            } else if(mime === 'image/jpeg'){
+                html += `
+<tr>
+    <td class="file-name"><a class="icon icon-image" href="${p}">${item.name}</a></td>
+    <td class="file-size">${item['size']}</td>
+    <td class="file-date-modified">${item['modifiedTime']}</td>
+    <td class="file-type">${mime}</td>
+</tr>
+                `;
+            } else if(mime === 'video/mpeg'){
+                html += `
+<tr>
+    <td class="file-name"><a class="icon icon-video" href="${p}">${item.name}</a></td>
+    <td class="file-size">${item['size']}</td>
+    <td class="file-date-modified">${item['modifiedTime']}</td>
+    <td class="file-type">${mime}</td>
+</tr>
+                `;
+            } else if(mime === 'application/x-7z-compressed'){
+                html += `
+<tr>
+    <td class="file-name"><a class="icon icon-7z" href="${p}">${item.name}</a></td>
+    <td class="file-size">${item['size']}</td>
+    <td class="file-date-modified">${item['modifiedTime']}</td>
+    <td class="file-type">${mime}</td>
+</tr>
+                `;
+            } else if(mime === 'application/x-zip-compressed'){
+                html += `
+<tr>
+    <td class="file-name"><a class="icon icon-zip" href="${p}">${item.name}</a></td>
+    <td class="file-size">${item['size']}</td>
+    <td class="file-date-modified">${item['modifiedTime']}</td>
+    <td class="file-type">${mime}</td>
+</tr>
+                `;
+            } else if(mime === 'text/plain'){
+                html += `
+<tr>
+    <td class="file-name"><a class="icon icon-text" href="${p}">${item.name}</a></td>
+    <td class="file-size">${item['size']}</td>
+    <td class="file-date-modified">${item['modifiedTime']}</td>
+    <td class="file-type">${mime}</td>
+</tr>
+                `;
+            } else if(mime === 'text/xml'){
+                html += `
+<tr>
+    <td class="file-name"><a class="icon icon-xml" href="${p}">${item.name}</a></td>
+    <td class="file-size">${item['size']}</td>
+    <td class="file-date-modified">${item['modifiedTime']}</td>
+    <td class="file-type">${mime}</td>
+</tr>
+                `;
+            } else if(mime === 'application/x-rar'){
+                html += `
+<tr>
+    <td class="file-name"><a class="icon icon-rar" href="${p}">${item.name}</a></td>
+    <td class="file-size">${item['size']}</td>
+    <td class="file-date-modified">${item['modifiedTime']}</td>
+    <td class="file-type">${mime}</td>
+</tr>
+                `;
+            } else if(mime === 'text/html'){
+                html += `
+<tr>
+    <td class="file-name"><a class="icon icon-html" href="${p}">${item.name}</a></td>
+    <td class="file-size">${item['size']}</td>
+    <td class="file-date-modified">${item['modifiedTime']}</td>
+    <td class="file-type">${mime}</td>
+</tr>
+                `;
+            } else if(mime === 'application/pdf'){
+                // для примера выводим ещё iconLink
+                html += `
+<tr>
+    <td class="file-name"><a class="icon icon-pdf" href="${p}">${item.name}</a></td>
+    <td class="file-size">${item['size']}</td>
+    <td class="file-date-modified">${item['modifiedTime']}</td>
+    <td class="file-type">${mime}</td>
+</tr>
+                `;
+            } else if(mime === 'text/markdown'){
+                html += `
+<tr>
+    <td class="file-name"><a class="icon icon-md" href="${p}">${item.name}</a></td>
+    <td class="file-size">${item['size']}</td>
+    <td class="file-date-modified">${item['modifiedTime']}</td>
+    <td class="file-type">${mime}</td>
+</tr>
+                `;
+            } else if(mime === 'application/x-msdos-program'){
+                html += `
+<tr>
+    <td class="file-name"><a class="icon icon-bat" href="${p}">${item.name}</a></td>
+    <td class="file-size">${item['size']}</td>
+    <td class="file-date-modified">${item['modifiedTime']}</td>
+    <td class="file-type">${mime}</td>
+</tr>
+                `;
+            } else if(mime === 'application/x-msdownload'){
+                html += `
+<tr>
+    <td class="file-name"><a class="icon icon-x-msdownload" href="${p}">${item.name}</a></td>
+    <td class="file-size">${item['size']}</td>
+    <td class="file-date-modified">${item['modifiedTime']}</td>
+    <td class="file-type">${mime}</td>
+</tr>
+                `;
+            } else if(mime === 'application/x-bittorrent'){
+                html += `
+<tr>
+    <td class="file-name"><a class="icon icon-application/x-bittorrent" href="${p}">${item.name}</a></td>
+    <td class="file-size">${item['size']}</td>
+    <td class="file-date-modified">${item['modifiedTime']}</td>
+    <td class="file-type">${mime}</td>
+</tr>
+                `;
+            } else if(mime === 'application/vnd.google-apps.spreadsheet'){
+                html += `
+<tr>
+    <td class="file-name"><a class="icon icon-google.spreadsheet" href="${p}">${item.name}</a></td>
+    <td class="file-size">${item['size']}</td>
+    <td class="file-date-modified">${item['modifiedTime']}</td>
+    <td class="file-type">application/google.spreadsheet</td>
+</tr>
+                `;
+            } else if(mime === 'application/vnd.google-apps.presentation'){
+                html += `
+<tr>
+    <td class="file-name"><a class="icon icon-google.presentation" href="${p}">${item.name}</a></td>
+    <td class="file-size">${item['size']}</td>
+    <td class="file-date-modified">${item['modifiedTime']}</td>
+    <td class="file-type">application/google.presentation</td>
+</tr>
+                `;
+            } else {
+                // остальное => общий вариант
+                html += `
+<tr>
+    <td class="file-name"><a class="icon icon-file" href="${p}">${item.name}</a></td>
+    <td class="file-size">${item['size']}</td>
+    <td class="file-date-modified">${item['modifiedTime']}</td>
+    <td class="file-type">${mime}</td>
+</tr>
+                `;
+            }
         }
     }
     $('#table').append(html);
-	// $('#list').html(html);
+}
+
+// «заглушка» — тут можно дописать, если файл надо показывать как контент
+function file(path){
+    // Если нужно просто скачивать файл — обычно рендеринг не требуется.
+    // Но если надо отображать, можно дописать логику.
+    $('h1#heading').html('File: '+decodeURI(path));
+    // ...
 }
 
 
-//时间转换
+// Вспомогательные функции
+
+// Перевод UTC-времени от Google Drive в локальное «YYYY-mm-dd HH:MM:SS»
 function utc2beijing(utc_datetime) {
-    // 转为正常的时间格式 年-月-日 时:分:秒
+    // 1) Разбиваем строку "YYYY-mm-ddTHH:MM:SSZ"
     var T_pos = utc_datetime.indexOf('T');
     var Z_pos = utc_datetime.indexOf('Z');
     var year_month_day = utc_datetime.substr(0,T_pos);
     var hour_minute_second = utc_datetime.substr(T_pos+1,Z_pos-T_pos-1);
-    var new_datetime = year_month_day+" "+hour_minute_second; // 2017-03-31 08:02:06
+    var new_datetime = year_month_day+" "+hour_minute_second; // "2017-03-31 08:02:06"
 
-    // 处理成为时间戳
-    timestamp = new Date(Date.parse(new_datetime));
-    timestamp = timestamp.getTime();
-    timestamp = timestamp/1000;
+    // 2) Превращаем в timestamp
+    var timestamp = new Date(Date.parse(new_datetime));
+    timestamp = timestamp.getTime()/1000;
 
-    // 增加8个小时，北京时间比utc时间多八个时区
+    // 3) Добавляем 8 часов (Пекин/МСК+5 и т.п. — поправьте под себя)
     var unixtimestamp = timestamp+8*60*60;
+    var d = new Date(unixtimestamp*1000);
 
-    // 时间戳转为时间
-    var unixtimestamp = new Date(unixtimestamp*1000);
-    var year = 1900 + unixtimestamp.getYear();
-    var month = "0" + (unixtimestamp.getMonth() + 1);
-    var date = "0" + unixtimestamp.getDate();
-    var hour = "0" + unixtimestamp.getHours();
-    var minute = "0" + unixtimestamp.getMinutes();
-    var second = "0" + unixtimestamp.getSeconds();
-    return year + "-" + month.substring(month.length-2, month.length)  + "-" + date.substring(date.length-2, date.length)
-        + " " + hour.substring(hour.length-2, hour.length) + ":"
-        + minute.substring(minute.length-2, minute.length) + ":"
-        + second.substring(second.length-2, second.length);
+    var year = d.getFullYear();
+    var month = ("0" + (d.getMonth()+1)).slice(-2);
+    var date = ("0" + d.getDate()).slice(-2);
+    var hour = ("0" + d.getHours()).slice(-2);
+    var minute = ("0" + d.getMinutes()).slice(-2);
+    var second = ("0" + d.getSeconds()).slice(-2);
+
+    return year + "-" + month + "-" + date + " " + hour + ":" + minute + ":" + second;
 }
 
-// bytes自适应转换到KB,MB,GB
+// Преобразуем размер файлов в человеко‐читаемый формат
 function formatFileSize(bytes) {
     if (bytes>=1000000000) {bytes=(bytes/1000000000).toFixed(2)+' GB';}
-    else if (bytes>=1000000)    {bytes=(bytes/1000000).toFixed(2)+' MB';}
-    else if (bytes>=1000)       {bytes=(bytes/1000).toFixed(2)+' KB';}
-    else if (bytes>1)           {bytes=bytes+' bytes';}
-    else if (bytes==1)          {bytes=bytes+' byte';}
-    else                        {bytes='';}
+    else if (bytes>=1000000) {bytes=(bytes/1000000).toFixed(2)+' MB';}
+    else if (bytes>=1000) {bytes=(bytes/1000).toFixed(2)+' KB';}
+    else if (bytes>1) {bytes=bytes+' bytes';}
+    else if (bytes==1) {bytes=bytes+' byte';}
+    else {bytes='';}
     return bytes;
 }
 
@@ -380,7 +378,10 @@ window.onpopstate = function(){
 $(function(){
     init();
     var path = window.location.pathname;
-    $("body").on("click",'.folder',function(){
+
+    // Переопределяем поведение клика для папок, чтобы не перезагружать страницу
+    $("body").on("click",'.folder',function(e){
+        e.preventDefault();
         var url = $(this).attr('href');
         history.pushState(null, null, url);
         render(url);
@@ -389,3 +390,4 @@ $(function(){
 
     render(path);
 });
+</script>

@@ -144,7 +144,12 @@ function list_files(path, files){
         }
         // иначе это файл (ниже много вариантов по mimeType)
         else {
-            p = path + encodeURIComponent(item.name);
+            let encodedName = encodeURIComponent(item.name);
+            console.log("item.name:", item.name, " => encoded:", encodedName);
+
+            
+            let p = path + encodedName;
+            console.log("final href:", p);
             // Для удобства создадим переменную с типом (item['mimeType'])
             let mime = item['mimeType'];
 
